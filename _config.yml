@@ -24,3 +24,6 @@ baseurl:
 url: http://yourdomain.com/
 
 markdown: kramdown
+
+kramdown:
+  input: GFM
