@@ -1,0 +1,45 @@
+body {
+    font-size: 12px;
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    color:#564b47;  
+    padding-left: 50px;
+    padding-right: 10%;
+}
+
+#content {
+    max-width: 720px;
+}
+
+td {
+    padding-left: 20px;
+}
+
+.ilt {
+    display: inline-table;
+    width: 100%;
+}
+.ilt > div {
+    display: table-cell;
+}
+
+/* Style for position descriptions */
+div .position {
+    display: inline-table;
+    width: 100%;
+}
+.position > p {
+    display: table-cell;
+}
+.position > .title {
+    text-align: left;
+}
+.position > .dates {
+    text-align: center;
+}
+.position > .location {
+    text-align: right;
+}
+
+
+
+
