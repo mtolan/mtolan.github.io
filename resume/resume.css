@@ -36,3 +36,8 @@ h3 {
     padding: 3px;
 }
 
+@media print {
+    body {
+        font-size: 1em;
+    }
+}
