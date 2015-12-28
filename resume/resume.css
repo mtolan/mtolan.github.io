@@ -17,14 +17,18 @@ h3 {
     font-weight: bold;
 }
 
-.position > .title {
+.position {
+    page-break-inside: avoid;
+}
+
+.position .title {
     text-align: left;
 }
-.position > .dates {
+.position .dates {
     text-align: center;
     white-space: nowrap;
 }
-.position > .location {
+.position .location {
     text-align: right;
 }
 
